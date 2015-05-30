@@ -1,1 +1,1 @@
-SauceOnDemandSessionID=da59d6c734ac40a9a177f8efaad98ab6 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
+SauceOnDemandSessionID=f6064a6f04cc4acfab70df2d5da13608 job-name=com.yourcompany.SampleSauceTest.loginTest[0]
