@@ -168,8 +168,8 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public void loginTest() throws Exception {
         driver.get("www.stubhub.com/");
 
-     WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
-     wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#searchStr")));
+   //  WebDriverWait wait = new WebDriverWait(driver, 5); // wait for a maximum of 5 seconds
+   //  wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#searchStr")));
 
       //  Thread.sleep(5000);
 
@@ -184,9 +184,9 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
 
      //   Thread.sleep(5000);
      //   driver.findElement(By.cssSelector("#btn-sprite btn-sprite-medium")).click();
-        driver.findElement(By.id("searchStr")).sendKeys("San Francisco Giants");
-        driver.findElement(By.id("srchbtn")).click();
-        Thread.sleep(5000);
+     //   driver.findElement(By.id("searchStr")).sendKeys("San Francisco Giants");
+     //   driver.findElement(By.id("srchbtn")).click();
+     //   Thread.sleep(5000);
     }
 
     /**
